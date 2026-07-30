@@ -30,6 +30,8 @@ public class MaxAndIndex {
             }
         }
 
+        // 인덱스도 배열값을 뱉어내야 되는 거 아냐? 근데 왜 max = array[i]; 인데, maxIndex는 그냥 i야? -> i → 0, 1, 2 (몇 번째인지) / array[i] → 1, 8, 3 (실제 값)
+
         int[] answer = {max, maxIndex};
         return answer;
     }
